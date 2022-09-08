@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Blindspot</string>
+    <string name="txtNome">Nome:</string>
+    <string name="txtEmail">Email:</string>
+    <string name="txtSenha">Senha:</string>
+    <string name="txtEsqSenha">Esqueceu sua senha?</string>
+    <string name="txtCriarConta">Não possui conta? Crie uma</string>
+    <string name="txtLogin">LOGIN</string>
+    <string name="txtCadastro">CADASTRO</string>
+    <string name="txtTCnome">Nome:</string>
+    <string name="txtTCEmail">Email:</string>
+    <string name="txtTCSenha">Senha:</string>
+    <string name="txtTCConfirSenha">Confirme sua senha:</string>
+    <string name="txtTCPossuiLog">Já possui uma conta? Login</string>
+    <string name="txtBlindSpot">Blindspot</string>
 </resources>
