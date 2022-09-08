@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/2etimds/Desktop/Projeto/BlindspotEeB/app/src/main/res/drawable/botaoredondo.xml" value="0.3625" />
+        <entry key="..\:/Users/2etimds/Desktop/Projeto/BlindspotEeB/app/src/main/res/drawable/cor.xml" value="0.3635" />
         <entry key="..\:/Users/2etimds/Desktop/Projeto/BlindspotEeB/app/src/main/res/layout/activity_aventura.xml" value="0.3625" />
         <entry key="..\:/Users/2etimds/Desktop/Projeto/BlindspotEeB/app/src/main/res/layout/activity_cadastro.xml" value="0.3625" />
         <entry key="..\:/Users/2etimds/Desktop/Projeto/BlindspotEeB/app/src/main/res/layout/activity_login.xml" value="0.33" />
@@ -22,5 +24,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3625" />
+      </ProjectState>
+    </option>
   </component>
 </project>

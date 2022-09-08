@@ -26,7 +26,7 @@
     <EditText
         android:id="@+id/edsenha"
         android:layout_width="380dp"
-        android:layout_height="38dp"
+        android:layout_height="48dp"
         android:drawableLeft="@drawable/senhaa"
         android:drawablePadding="50dp"
         android:ems="10"
@@ -55,16 +55,17 @@
     <Button
         android:id="@+id/btnentrar"
         android:layout_width="173dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:backgroundTint="#FBB821"
         android:shadowColor="#FBB821"
         android:text="Entrar"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.789"
+        app:layout_constraintVertical_bias="0.821"
         app:rippleColor="#FBB821" />
 
     <TextView
@@ -113,7 +114,7 @@
     <EditText
         android:id="@+id/ednome"
         android:layout_width="380dp"
-        android:layout_height="38dp"
+        android:layout_height="48dp"
         android:drawableLeft="@drawable/nome"
         android:drawablePadding="5dp"
         android:ems="10"
