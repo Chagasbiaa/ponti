@@ -10,6 +10,7 @@ import android.widget.Button;
 public class Cadastro extends AppCompatActivity {
 
      Button registro;
+     Button crie2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,16 @@ public class Cadastro extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(Cadastro.this, Menu.class);
+                startActivity(intent);
+            }
+        });
+        crie2=findViewById(R.id.btncrie2);
+
+        crie2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(Cadastro.this, login.class);
                 startActivity(intent);
             }
         });
