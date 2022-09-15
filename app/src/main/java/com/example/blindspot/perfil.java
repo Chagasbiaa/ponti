@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class aventura extends AppCompatActivity {
+public class perfil extends AppCompatActivity {
   Button menu;
   Button personas;
   Button casos;
@@ -15,36 +15,36 @@ public class aventura extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_aventura);
+    setContentView(R.layout.activity_perfil);
 
-    menu = findViewById(R.id.btnhomee4);
+    menu = findViewById(R.id.btnhomee3);
 
     menu.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
 
-        Intent intent = new Intent(aventura.this, Menu.class);
+        Intent intent = new Intent(perfil.this, Menu.class);
         startActivity(intent);
       }
     });
 
-    personas = findViewById(R.id.btnpersona4);
+    personas = findViewById(R.id.btnpersona3);
 
     personas.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
 
-        Intent intent = new Intent(aventura.this, personas.class);
+        Intent intent = new Intent(perfil.this, personas.class);
         startActivity(intent);
       }
     });
-    perfil = findViewById(R.id.btnperfil4);
+    casos = findViewById(R.id.btncasos3);
 
-    perfil.setOnClickListener(new View.OnClickListener() {
+    casos.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
 
-        Intent intent = new Intent(aventura.this, perfil.class);
+        Intent intent = new Intent(perfil.this, aventura.class);
         startActivity(intent);
       }
     });

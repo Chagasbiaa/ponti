@@ -8,6 +8,63 @@
     tools:context=".aventura">
 
 
+    <Button
+        android:id="@+id/btncasos4"
+        android:layout_width="113dp"
+        android:layout_height="70dp"
+        android:background="#00FFFFFF"
+        android:text="Casos"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnperfil4"
+        android:layout_width="113dp"
+        android:layout_height="70dp"
+        android:background="#00FFFFFF"
+        android:text="Perfil"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnpersona4"
+        android:layout_width="131dp"
+        android:layout_height="70dp"
+        android:background="#00655555"
+        android:text="Personas"
+        android:textColor="#314D63"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnhomee4"
+        android:layout_width="113dp"
+        android:layout_height="70dp"
+        android:background="#00FFFFFF"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:text="Home" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="301dp"
@@ -60,7 +117,7 @@
     <Button
         android:id="@+id/btnexploretwo"
         android:layout_width="151dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:background="@drawable/botaoredondo"
         android:text="EXPLORE"
         android:textSize="12sp"

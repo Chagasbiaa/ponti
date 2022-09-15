@@ -4,25 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu">
+    tools:context=".personas">
 
-    <Button
-        android:id="@+id/btnpersona"
-        android:layout_width="131dp"
-        android:layout_height="70dp"
-        android:background="#00655555"
-        android:text="Personas"
-        android:textColor="#314D63"
-        android:textColorHint="#FFFFFF"
+    <ListView
+        android:id="@+id/btnhome"
+        android:layout_width="482dp"
+        android:layout_height="74dp"
+        android:background="#A6A3A3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.785">
+
+        <Button
+            android:id="@+id/btnpersona2"
+            android:layout_width="131dp"
+            android:layout_height="70dp"
+            android:background="#00655555"
+            android:text="Personas"
+            android:textColor="#314D63"
+            android:textColorHint="#FFFFFF" />
+    </ListView>
+
+    <Button
+        android:id="@+id/btnperfil2"
+        android:layout_width="113dp"
+        android:layout_height="70dp"
+        android:background="#00FFFFFF"
+        android:text="Perfil"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
+    <TextView
+        android:id="@+id/txtmenu2"
+        android:layout_width="317dp"
+        android:layout_height="163dp"
+        android:text="Personagens"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
     <Button
-        android:id="@+id/btnhomee"
+        android:id="@+id/btnhomee2"
         android:layout_width="113dp"
         android:layout_height="70dp"
         android:background="#00FFFFFF"
@@ -36,21 +69,7 @@
         tools:text="Home" />
 
     <Button
-        android:id="@+id/btnperfil"
-        android:layout_width="113dp"
-        android:layout_height="70dp"
-        android:background="#00FFFFFF"
-        android:text="Perfil"
-        android:textColor="#314D63"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/btncasos"
+        android:id="@+id/btncasos2"
         android:layout_width="113dp"
         android:layout_height="70dp"
         android:background="#00FFFFFF"
@@ -63,27 +82,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <ListView
-        android:id="@+id/btnhome"
-        android:layout_width="482dp"
-        android:layout_height="74dp"
-        android:background="#A6A3A3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.782" />
-
-    <TextView
-        android:id="@+id/txtmenu"
-        android:layout_width="202dp"
-        android:layout_height="145dp"
-        android:text="Menu"
-        android:textSize="80sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242" />
 </androidx.constraintlayout.widget.ConstraintLayout>
