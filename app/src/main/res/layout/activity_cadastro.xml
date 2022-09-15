@@ -43,6 +43,7 @@
         android:backgroundTint="#FBB821"
         android:shadowColor="#FBB821"
         android:text="Registrar"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -80,21 +81,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.46" />
-
-    <EditText
-        android:id="@+id/edsenha3"
-        android:layout_width="380dp"
-        android:layout_height="38dp"
-        android:drawableLeft="@drawable/senhaa"
-        android:drawablePadding="5dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.567" />
 
     <EditText
         android:id="@+id/ednome3"
