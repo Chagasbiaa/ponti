@@ -12,13 +12,37 @@
         <entry key="..\:/Users/2etimds/Desktop/Projeto/BlindspotEeB/app/src/main/res/layout/activity_menu.xml" value="0.31567028985507245" />
         <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/drawable/logofbi_foreground.xml" value="0.1" />
         <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/drawable/nome_background.xml" value="0.1" />
-        <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_cadastro.xml" value="0.67" />
+        <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_aventura.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_cadastro.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_casosnaoresolvidos.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_casosresolvidos.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_casossol_example.xml" value="0.16" />
         <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_login.xml" value="0.3625" />
         <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_menu.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_perfil.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_personas.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/layout/activity_profile.xml" value="0.25" />
         <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/mipmap-anydpi-v26/logofbi.xml" value="0.1925" />
         <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/mipmap-anydpi-v26/logofbi_round.xml" value="0.1" />
         <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/mipmap-anydpi-v26/nome.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_aventura.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_casessolved.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_cns.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_cs.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_perfil.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_personas.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/Documents/blindpp/app/src/main/res/layout/activity_edgarreade.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Acer/Documents/blindpp/app/src/main/res/layout/activity_jadedoe.xml" value="0.33" />
+        <entry key="..\:/Users/Acer/Documents/blindpp/app/src/main/res/layout/activity_localizacao.xml" value="0.16898148148148148" />
+        <entry key="..\:/Users/Acer/Documents/blindpp/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Acer/Documents/blindpp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Acer/Documents/blindpp/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/Documents/blindpp/app/src/main/res/layout/activity_opcoes.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/Documents/blindpp/app/src/main/res/layout/activity_patlocal.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Acer/Documents/blindpp/app/src/main/res/layout/activity_sensor_laterna.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Acer/Documents/blindspotapp/app/src/main/res/drawable/cor.xml" value="0.1945" />
         <entry key="..\:/Users/Acer/Documents/blindspotapp/app/src/main/res/drawable/corlogin.xml" value="0.1945" />
         <entry key="..\:/Users/Acer/Documents/blindspotapp/app/src/main/res/drawable/logofbi_background.xml" value="0.1945" />
@@ -26,6 +50,53 @@
         <entry key="..\:/Users/Acer/Documents/blindspotapp/app/src/main/res/layout/activity_cadastro.xml" value="0.33" />
         <entry key="..\:/Users/Acer/Documents/blindspotapp/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Acer/Documents/blindspotapp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/Downloads/blindapps/app/src/main/res/layout/activity_edgarreade.xml" value="0.16898148148148148" />
+        <entry key="..\:/Users/Acer/Downloads/blindapps/app/src/main/res/layout/activity_examplecns.xml" value="0.33" />
+        <entry key="..\:/Users/Acer/Downloads/blindapps/app/src/main/res/layout/activity_examplecs.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/Downloads/blindapps/app/src/main/res/layout/activity_jadedoe.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Acer/Downloads/blindapps/app/src/main/res/layout/activity_menu.xml" value="0.22" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/drawable/botaoredondo.xml" value="0.2555" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/layout/activity_aventura.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/layout/activity_casosnaoresolvidos.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/layout/activity_casosresolvidos.xml" value="0.2" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/layout/activity_casossol_example.xml" value="0.264" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/layout/activity_details.xml" value="0.25" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/layout/activity_menu.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/layout/activity_personas.xml" value="0.2" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/BlindspotEeB/app/src/main/res/layout/activity_profile.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/blindapps/app/src/main/res/drawable/botaoredondo.xml" value="0.208" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/blindapps/app/src/main/res/layout/activiry_cns.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/blindapps/app/src/main/res/layout/activity_aventura.xml" value="0.264" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/blindapps/app/src/main/res/layout/activity_cadastro.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/blindapps/app/src/main/res/layout/activity_cns.xml" value="0.176" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/blindapps/app/src/main/res/layout/activity_cs.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/blindapps/app/src/main/res/layout/activity_menu.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/blindapps/app/src/main/res/layout/activity_personas.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/blindapps/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/Users/andre/Desktop/appblind/app/src/main/res/layout/activity_localizacao.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/appblind/app/src/main/res/layout/activity_sensor_laterna.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_aventura.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_cadastro.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_casessolved.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_cns.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_cs.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_examplecns.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_examplecs.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_login.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_main.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_menu.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_perfil.xml" value="0.31567028985507245" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_personas.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindapps/app/src/main/res/layout/activity_profile.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindpp/app/src/main/res/layout/activity_examplecns.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindpp/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/Users/andre/Desktop/blindpp/app/src/main/res/layout/activity_perfil.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindpp/app/src/main/res/layout/activity_personas.xml" value="0.264" />
+        <entry key="..\:/Users/andre/Desktop/blindpp/app/src/main/res/layout/activity_profile.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/andre/Desktop/blindpp/app/src/main/res/layout/activity_sensor_laterna.xml" value="0.2212962962962963" />
       </map>
     </option>
   </component>
@@ -38,7 +109,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.31567028985507245" />
+        <option name="scale" value="0.264" />
       </ProjectState>
     </option>
   </component>

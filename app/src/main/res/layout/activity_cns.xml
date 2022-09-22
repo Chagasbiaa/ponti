@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imvw_voltarcns"
+        android:layout_width="32dp"
+        android:layout_height="29dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/iconseta" />
+
+    <TextView
+        android:id="@+id/txtvw_cns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Casos não solucionados"
+        android:textColor="@color/purple_500"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <ImageView
+        android:id="@+id/imvw_card2_cns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626"
+        app:srcCompat="@drawable/card2_ns" />
+
+    <ImageView
+        android:id="@+id/imvw_card3_cns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84"
+        app:srcCompat="@drawable/card3_ns" />
+
+    <ImageView
+        android:id="@+id/imvw_card1_cns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626"
+        app:srcCompat="@drawable/card1_ns" />
+
+    <ImageView
+        android:id="@+id/imvw_imgmain_cns"
+        android:layout_width="346dp"
+        android:layout_height="261dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.319"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183"
+        app:srcCompat="@drawable/casosnsol" />
+
+    <TextView
+        android:id="@+id/txtvw_arquivado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arquivados"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imvw_card4_cns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84"
+        app:srcCompat="@drawable/card4_ns" />
+
+    <Button
+        android:id="@+id/btnpersona5"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00655555"
+        android:drawableLeft="@drawable/iconepersons"
+        android:textColor="#314D63"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+         />
+
+    <Button
+        android:id="@+id/btnhomee5"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/iconehome"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+         />
+
+    <Button
+        android:id="@+id/btnperfil5"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/iconesmenu"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+         />
+
+    <Button
+        android:id="@+id/btncasos5"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/iconescasos"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+         />
+
+    <ListView
+        android:id="@+id/btnhome"
+        android:layout_width="482dp"
+        android:layout_height="74dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,15 +14,24 @@ public class Menu extends AppCompatActivity {
     Button personas;
     Button casos;
     Button perfil;
+    Button btn_sensor;
 
-    @SuppressLint("WrongViewCast")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        personas = findViewById(R.id.btnpersona);
+        btn_sensor = findViewById(R.id.btnsensor);
+        btn_sensor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Menu.this, opcoes.class);
+                startActivity(intent);
+            }
+        });
 
+        personas = findViewById(R.id.btnpersona);
         personas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,7 +42,6 @@ public class Menu extends AppCompatActivity {
         });
 
         casos = findViewById(R.id.btncasos);
-
         casos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,8 +50,8 @@ public class Menu extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        perfil = findViewById(R.id.btnperfil);
 
+        perfil = findViewById(R.id.btnperfil);
         perfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,5 +60,16 @@ public class Menu extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        menu = findViewById(R.id.btnhomee);
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(Menu.this, Menu.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

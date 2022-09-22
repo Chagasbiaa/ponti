@@ -3,81 +3,178 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".personas">
+    android:layout_height="match_parent">
 
-    <ListView
-        android:id="@+id/btnhome"
-        android:layout_width="482dp"
-        android:layout_height="74dp"
-        android:background="#A6A3A3"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_saibaperson_telapers"
+        android:textColor="@color/purple_500"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785">
+        app:layout_constraintVertical_bias="0.058" />
 
-        <Button
-            android:id="@+id/btnpersona2"
-            android:layout_width="131dp"
-            android:layout_height="70dp"
-            android:background="#00655555"
-            android:text="Personas"
-            android:textColor="#314D63"
-            android:textColorHint="#FFFFFF" />
-    </ListView>
+    <ImageView
+        android:id="@+id/imvw_card4_pers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413"
+        app:srcCompat="@drawable/card4_personagens" />
+
+    <ImageView
+        android:id="@+id/imvw_card1_pers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206"
+        app:srcCompat="@drawable/card1_personagens" />
+
+    <ImageView
+        android:id="@+id/imvw_card3_pers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413"
+        app:srcCompat="@drawable/card3_personagens" />
+
+    <ImageView
+        android:id="@+id/imvw_card5_pers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627"
+        app:srcCompat="@drawable/card5_personagens" />
+
+    <ImageView
+        android:id="@+id/imvw_card6_pers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627"
+        app:srcCompat="@drawable/card6_personagens" />
+
+    <ImageView
+        android:id="@+id/imvw_card2_pers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206"
+        app:srcCompat="@drawable/card2_personagens" />
+
 
     <Button
-        android:id="@+id/btnperfil2"
-        android:layout_width="113dp"
-        android:layout_height="70dp"
+        android:id="@+id/btn_elenco_tp"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:background="@drawable/botaoredondo"
+        android:text="@string/text_elenco_tp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <Button
+        android:id="@+id/btnpersona3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00655555"
+        android:drawableLeft="@drawable/iconepersons"
+        android:textColor="#314D63"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnhomee3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
         android:background="#00FFFFFF"
-        android:text="Perfil"
+        android:drawableLeft="@drawable/iconehome"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnperfil3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/iconesmenu"
         android:textColor="#314D63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
-        android:id="@+id/txtmenu2"
-        android:layout_width="317dp"
-        android:layout_height="163dp"
-        android:text="Personagens"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/btnhomee2"
-        android:layout_width="113dp"
-        android:layout_height="70dp"
+        android:id="@+id/btncasos3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
         android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/iconescasos"
         android:textColor="#314D63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.707"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        tools:text="Home" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
-    <Button
-        android:id="@+id/btncasos2"
-        android:layout_width="113dp"
-        android:layout_height="70dp"
-        android:background="#00FFFFFF"
-        android:text="Casos"
-        android:textColor="#314D63"
+    <ListView
+        android:id="@+id/btnhome"
+        android:layout_width="482dp"
+        android:layout_height="74dp"
+        android:background="#F5F5F5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />

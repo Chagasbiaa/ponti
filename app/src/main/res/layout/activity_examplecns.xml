@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imvw_imgmain_excns"
+        android:layout_width="413dp"
+        android:layout_height="288dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/imgmain_cns" />
+
+    <ImageView
+        android:id="@+id/imvw_voltarexcns"
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049"
+        app:srcCompat="@drawable/icon_seta_branco" />
+
+    <TextView
+        android:id="@+id/txtview_lorem4"
+        android:layout_width="372dp"
+        android:layout_height="206dp"
+        android:text="Com a derrota de Madeline, e a troca da diretoria do FBI, Kurt e sua equipe tinham algumas preocupações: Salvar Jane depois de se expor ao ZIP mais uma vez; deter Ivy Sands de uma vez por todas, e acertar a reintegração de todos no FBI. Para nosso alívio Patterson criou um antídoto e a droga não apagou as memórias de Jane. Porém, ela voltou a ter alucinações, precisando de uma dose maior do antídoto. No entanto, ela percebe que suas alucinações estão ajudando a obter detalhes sobre o plano de Ivy. Jane não aceita a segunda dose do antídoto e se coloca em risco."
+        android:textColor="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
+
+    <TextView
+        android:id="@+id/txtvw_epeleven_excns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episódio 11 - A Derrota de Madeline"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <Button
+        android:id="@+id/btn_loc_telaexcns"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:background="@drawable/botaoredondo"
+        android:text="@string/text_loccrime"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <Button
+        android:id="@+id/btnpersona9"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00655555"
+        android:drawableLeft="@drawable/iconepersons"
+        android:textColor="#314D63"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnhomee9"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/iconehome"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnperfil9"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/iconesmenu"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btncasos9"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/iconescasos"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ListView
+        android:id="@+id/btnhome"
+        android:layout_width="482dp"
+        android:layout_height="74dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imvw_imgmain"
+        android:layout_width="413dp"
+        android:layout_height="288dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_main_ecs" />
+
+    <ImageView
+        android:id="@+id/imvw_voltarexcs"
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049"
+        app:srcCompat="@drawable/icon_seta_branco" />
+
+    <TextView
+        android:id="@+id/txtview_lorem1"
+        android:layout_width="374dp"
+        android:layout_height="300dp"
+        android:text="O piloto começa com uma mala encontrada no meio da Times Square, que aparentemente foi deixada lá de propósito, com um aviso “Chame o FBI”. O esquadrão anti-bombas chega, mas o conteúdo da mala é ainda mais surpreendente do que se esperava: uma mulher nua, com o corpo totalmente tatuado, sofrendo amnésia e que não tem a menor ideia de quem é e como foi parar lá. Logo em seguida descobrimos que a memória da mulher (chamada pelos demais personagens como Jane Doe, feminino de “João Ninguém”) foi apagada através de drogas e suas tatuagens são recentes. Numa delas se destaca o nome do agente Kurt Weller (Sullivan Stapleton, de 300: Rise of an Empire). Não demora muito para os personagens e a própria Jane descobrirem que ela sabe falar chinês, uma das tatuagens acaba levando-os para o endereço de um criminoso e…"
+        android:textColor="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738" />
+
+    <TextView
+        android:id="@+id/txtvw_epone_excs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_ep1_telaexcs"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424" />
+
+    <Button
+        android:id="@+id/btn_loc_telaexcs"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:background="@drawable/botaoredondo"
+        android:text="@string/text_loccrime"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <Button
+        android:id="@+id/btnpersona10"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00655555"
+        android:drawableLeft="@drawable/iconepersons"
+        android:textColor="#314D63"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnhomee10"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/iconehome"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnperfil10"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/iconesmenu"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btncasos10"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/iconescasos"
+        android:textColor="#314D63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ListView
+        android:id="@+id/btnhome"
+        android:layout_width="482dp"
+        android:layout_height="74dp"
+        android:background="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
