@@ -90,7 +90,7 @@
         android:id="@+id/txtcrie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Não possui conta?"
+        android:text="@string/text_conta"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
