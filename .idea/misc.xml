@@ -27,6 +27,7 @@
         <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/mipmap-anydpi-v26/logofbi_round.xml" value="0.1" />
         <entry key="..\:/Users/Acer/Documents/BlindspotEeB/app/src/main/res/mipmap-anydpi-v26/nome.xml" value="0.1" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/drawable/botaoredondo.xml" value="0.2105" />
+        <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/drawable/cor.xml" value="0.2105" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/drawable/imgbutton.xml" value="0.2105" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_aventura.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
@@ -37,9 +38,10 @@
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_localizacao.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_login.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_main.xml" value="0.17255434782608695" />
-        <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_menu.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_menu.xml" value="0.33" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_opcoes.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_perfil.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Acer/Documents/appblind/app/src/main/res/layout/activity_personas.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_aventura.xml" value="0.22" />
         <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_casessolved.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Acer/Documents/blindapps/app/src/main/res/layout/activity_cns.xml" value="0.17074275362318841" />
