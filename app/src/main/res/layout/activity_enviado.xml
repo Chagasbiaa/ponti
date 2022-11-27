@@ -4,10 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".opcoes">
+    tools:context=".enviado">
+
+    <TextView
+        android:id="@+id/txturgencia"
+        android:layout_width="325dp"
+        android:layout_height="129dp"
+        android:text="@string/text_envi"
+        android:textColor="@color/purple_500"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
 
     <Button
-        android:id="@+id/btnpersona12"
+        android:id="@+id/btnpersonaal"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:background="#00655555"
@@ -23,7 +36,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/btnhomee12"
+        android:id="@+id/btnhomeerl"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:background="#00FFFFFF"
@@ -38,7 +51,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/btnperfil12"
+        android:id="@+id/btnperfilll"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:background="#00FFFFFF"
@@ -53,7 +66,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/btncasos12"
+        android:id="@+id/btncasosol"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:background="#00FFFFFF"
@@ -68,7 +81,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ListView
-        android:id="@+id/btnhome"
+        android:id="@+id/btnhomel"
         android:layout_width="482dp"
         android:layout_height="74dp"
         android:background="#F5F5F5"
@@ -79,61 +92,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <TextView
-        android:id="@+id/txtescolha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="@string/text_escolha"
-        android:textColor="#010930"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137" />
-
-    <Button
-        android:id="@+id/btnsens"
-        android:layout_width="229dp"
-        android:layout_height="73dp"
-        android:background="@drawable/botaoredondo"
-        android:text="Alguém por perto?"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386" />
-
-    <Button
-        android:id="@+id/btnfoto"
-        android:layout_width="229dp"
-        android:layout_height="73dp"
-        android:background="@drawable/botaoredondo"
-        android:text="Suspeita de algo?"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
-
-    <Button
-        android:id="@+id/btnlocal"
-        android:layout_width="229dp"
-        android:layout_height="73dp"
-        android:background="@drawable/botaoredondo"
-        android:text="Patterson em ação!"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55" />
 </androidx.constraintlayout.widget.ConstraintLayout>

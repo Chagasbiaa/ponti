@@ -4,10 +4,86 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".opcoes">
+    tools:context=".foto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagefoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnselected_photo"
+        app:layout_constraintEnd_toEndOf="@+id/btnselected_photo"
+        app:layout_constraintStart_toStartOf="@+id/btnselected_photo"
+        app:layout_constraintTop_toTopOf="@+id/btnselected_photo"
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="188dp"
+        android:layout_height="95dp"
+        android:text="@string/text_tituevi"
+        android:textColor="@color/purple_500"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
 
     <Button
-        android:id="@+id/btnpersona12"
+        android:id="@+id/btnenviar"
+        android:layout_width="229dp"
+        android:layout_height="73dp"
+        android:background="@drawable/botaoredondo"
+        android:text="Enviar"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Urgente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656" />
+
+    <TextView
+        android:id="@+id/txturgencia"
+        android:layout_width="305dp"
+        android:layout_height="68dp"
+        android:text="@string/text_situ"
+        android:textColor="@color/purple_500"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estável"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <Button
+        android:id="@+id/btnpersonaa"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:background="#00655555"
@@ -23,7 +99,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/btnhomee12"
+        android:id="@+id/btnhomeer"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:background="#00FFFFFF"
@@ -38,7 +114,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/btnperfil12"
+        android:id="@+id/btnperfill"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:background="#00FFFFFF"
@@ -53,7 +129,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/btncasos12"
+        android:id="@+id/btncasoso"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:background="#00FFFFFF"
@@ -79,61 +155,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <TextView
-        android:id="@+id/txtescolha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="@string/text_escolha"
-        android:textColor="#010930"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137" />
-
     <Button
-        android:id="@+id/btnsens"
-        android:layout_width="229dp"
-        android:layout_height="73dp"
-        android:background="@drawable/botaoredondo"
-        android:text="Alguém por perto?"
+        android:id="@+id/btnselected_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/imgbutton"
+        android:fontFamily="sans-serif-black"
+        android:text="Imagem"
         android:textColor="@color/white"
-        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386" />
+        app:layout_constraintVertical_bias="0.313" />
 
-    <Button
-        android:id="@+id/btnfoto"
-        android:layout_width="229dp"
-        android:layout_height="73dp"
-        android:background="@drawable/botaoredondo"
-        android:text="Suspeita de algo?"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
-
-    <Button
-        android:id="@+id/btnlocal"
-        android:layout_width="229dp"
-        android:layout_height="73dp"
-        android:background="@drawable/botaoredondo"
-        android:text="Patterson em ação!"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55" />
 </androidx.constraintlayout.widget.ConstraintLayout>

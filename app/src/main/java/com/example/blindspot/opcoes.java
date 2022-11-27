@@ -15,6 +15,7 @@ public class opcoes extends AppCompatActivity {
     Button perfil;
     Button sensor;
     Button local;
+    Button foto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +78,16 @@ public class opcoes extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(opcoes.this, localizacao.class);
+                startActivity(intent);
+            }
+        });
+
+        foto = findViewById(R.id.btnfoto);
+        foto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(opcoes.this, foto.class);
                 startActivity(intent);
             }
         });

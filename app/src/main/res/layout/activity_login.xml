@@ -9,23 +9,7 @@
     android:background="@drawable/corlogin">
 
     <EditText
-        android:id="@+id/edid"
-        android:layout_width="380dp"
-        android:layout_height="48dp"
-        android:drawableLeft="@drawable/emaail"
-        android:drawablePadding="5dp"
-        android:ems="10"
-        android:hint="Digite aqui"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.471" />
-
-    <EditText
-        android:id="@+id/edsenha"
+        android:id="@+id/Password1"
         android:layout_width="380dp"
         android:layout_height="48dp"
         android:drawableLeft="@drawable/senhaa"
@@ -39,20 +23,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.565" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:shadowColor="#FFFFFF"
-        android:text="@string/txtEmail"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.061"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.425" />
 
     <Button
         android:id="@+id/btnentrar"
@@ -115,7 +85,7 @@
         app:layout_constraintVertical_bias="0.517" />
 
     <EditText
-        android:id="@+id/ednome"
+        android:id="@+id/Username1"
         android:layout_width="380dp"
         android:layout_height="48dp"
         android:drawableLeft="@drawable/nome"

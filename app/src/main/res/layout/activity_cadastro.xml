@@ -53,7 +53,7 @@
         app:rippleColor="#FBB821" />
 
     <EditText
-        android:id="@+id/edsenha4"
+        android:id="@+id/repassword"
         android:layout_width="380dp"
         android:layout_height="38dp"
         android:drawableLeft="@drawable/senhaa"
@@ -68,7 +68,7 @@
         app:layout_constraintVertical_bias="0.567" />
 
     <EditText
-        android:id="@+id/edid3"
+        android:id="@+id/password"
         android:layout_width="380dp"
         android:layout_height="38dp"
         android:drawableLeft="@drawable/emaail"
@@ -155,7 +155,7 @@
         app:layout_constraintVertical_bias="0.525" />
 
     <EditText
-        android:id="@+id/ednome2"
+        android:id="@+id/username"
         android:layout_width="380dp"
         android:layout_height="38dp"
         android:drawableLeft="@drawable/nome"
