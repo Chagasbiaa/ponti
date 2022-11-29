@@ -8,12 +8,13 @@
     android:background="@drawable/corlogin">
 
     <Button
-        android:id="@+id/btncrie2"
+        android:id="@+id/btnsignin"
         android:layout_width="76dp"
         android:layout_height="41dp"
         android:background="#00000000"
         android:fontFamily="sans-serif"
         android:text="Login"
+        android:layout_below="@id/btnsignup"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,19 +38,21 @@
         app:layout_constraintVertical_bias="0.78" />
 
     <Button
-        android:id="@+id/btnentrar3"
+        android:id="@+id/btnsignup"
         android:layout_width="173dp"
         android:layout_height="47dp"
         android:backgroundTint="#FBB821"
         android:shadowColor="#FBB821"
         android:text="Registrar"
         android:textColor="#FFFFFF"
+        android:layout_below="@id/repassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.858"
+
         app:rippleColor="#FBB821" />
 
     <EditText
@@ -59,6 +62,7 @@
         android:drawableLeft="@drawable/senhaa"
         android:drawablePadding="5dp"
         android:ems="10"
+        android:layout_below="@id/password"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,6 +79,7 @@
         android:drawablePadding="5dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:layout_below="@id/username"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.451"

@@ -14,7 +14,7 @@ public class login extends AppCompatActivity {
 
     EditText username, password;
     Button crie;
-    Button entrar;
+    Button btnlogin;
     DBhelper DB;
 
 
@@ -23,32 +23,38 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        username = findViewById(R.id.Username1);
-        password = findViewById(R.id.Password1);
-        entrar = findViewById(R.id.btnentrar);
+        username = (EditText) findViewById(R.id.username1);
+        password = (EditText)  findViewById(R.id.password1);
+        btnlogin = (Button) findViewById(R.id.btnsignin1);
+        crie = (Button) findViewById(R.id.btnsignup1);
+
         DB = new DBhelper(this);
 
-        entrar.setOnClickListener(new View.OnClickListener() {
+        btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 String user = username.getText().toString();
                 String pass = password.getText().toString();
 
-                if (TextUtils.isEmpty(user) || TextUtils.isEmpty(pass))
-                    Toast.makeText(login.this, "Todos os campos precisam estar preenchidos", Toast.LENGTH_SHORT).show();
-                else {
+                if(user.equals("") || pass.equals(""))
+                    Toast.makeText(login.this, "Preencha todos os campos", Toast.LENGTH_SHORT).show();
+                else{
                     Boolean checkuserpass = DB.checkusernamepassword(user, pass);
-                    if (checkuserpass == true) {
-                        Toast.makeText(login.this, "Login feito com sucesso", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), Menu.class);
+                    if(checkuserpass == true){
+                        Toast.makeText(login.this, "Logado com sucesso", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent (getApplicationContext(), Menu.class);
                         startActivity(intent);
-                    } else
-                        Toast.makeText(login.this, "Erro ao Logar", Toast.LENGTH_SHORT).show();
+
+                    }else {
+                        Toast.makeText(login.this, "Credenciais Invalidas", Toast.LENGTH_SHORT).show();
+                    }
                 }
+
+
             }
         });
 
-        crie = findViewById(R.id.btncrie);
         crie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

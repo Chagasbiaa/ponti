@@ -9,12 +9,13 @@
     android:background="@drawable/corlogin">
 
     <EditText
-        android:id="@+id/Password1"
+        android:id="@+id/password1"
         android:layout_width="380dp"
         android:layout_height="48dp"
         android:drawableLeft="@drawable/senhaa"
         android:drawablePadding="5dp"
         android:ems="10"
+        android:layout_below="@id/username1"
         android:hint="Digite aqui"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,12 +26,13 @@
         app:layout_constraintVertical_bias="0.565" />
 
     <Button
-        android:id="@+id/btnentrar"
+        android:id="@+id/btnsignin1"
         android:layout_width="173dp"
         android:layout_height="48dp"
         android:backgroundTint="#FBB821"
         android:shadowColor="#FBB821"
         android:text="Entrar"
+        android:layout_below="@id/btnsignup1"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,7 +87,7 @@
         app:layout_constraintVertical_bias="0.517" />
 
     <EditText
-        android:id="@+id/Username1"
+        android:id="@+id/username1"
         android:layout_width="380dp"
         android:layout_height="48dp"
         android:drawableLeft="@drawable/nome"
@@ -128,12 +130,13 @@
         app:layout_constraintVertical_bias="0.637" />
 
     <Button
-        android:id="@+id/btncrie"
+        android:id="@+id/btnsignup1"
         android:layout_width="87dp"
         android:layout_height="48dp"
         android:background="#00000000"
         android:fontFamily="sans-serif"
         android:text="Crie uma!"
+        android:layout_below="@id/password1"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
