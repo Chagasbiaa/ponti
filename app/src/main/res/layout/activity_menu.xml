@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu">
+    tools:context=".Menu"
+    style="@style/TELA">
 
     <Button
         android:id="@+id/btnpersona"
@@ -71,7 +72,7 @@
         android:id="@+id/btnhome"
         android:layout_width="482dp"
         android:layout_height="74dp"
-        android:background="#F5F5F5"
+        style="@style/lista"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -84,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_ola"
-        android:textColor="#010930"
+        style="@style/TEXTO"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,10 +112,10 @@
         android:layout_height="157dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.171"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.108"
+        app:layout_constraintVertical_bias="0.128"
         tools:ignore="SpeakableTextPresentCheck">
 
         <LinearLayout
@@ -217,7 +218,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="@string/text_pesq"
-        android:textColor="#010930"
+        style="@style/TEXTO"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -243,8 +244,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="@string/text_pesq"
-        android:textColor="#010930"
+        android:text="@string/princ"
+        style="@style/TEXTO"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -291,11 +292,11 @@
 
     <Button
         android:id="@+id/btnsensor"
+        style="@style/BOTAO"
         android:layout_width="220dp"
         android:layout_height="60dp"
         android:background="@drawable/botaoredondo"
         android:text="Aventure-se!"
-        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

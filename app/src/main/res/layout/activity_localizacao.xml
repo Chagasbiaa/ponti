@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".localizacao">
+    tools:context=".localizacao"
+    style="@style/TELA">
 
     <Button
         android:id="@+id/btnpersona13"
@@ -71,7 +72,7 @@
         android:id="@+id/btnhome"
         android:layout_width="482dp"
         android:layout_height="74dp"
-        android:background="#F5F5F5"
+        style="@style/lista"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -83,9 +84,9 @@
         android:id="@+id/btneviar"
         android:layout_width="368dp"
         android:layout_height="55dp"
+        style="@style/BOTAO"
         android:background="@drawable/botaoredondo"
         android:text="@string/text_perm_loc"
-        android:textColor="@color/white"
         android:textSize="15sp"
         android:onClick="enviarPatterson"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -115,7 +116,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_envie_loc"
-        android:textColor="@color/purple_500"
+        style="@style/TEXTO"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +130,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_patterson"
-        android:textColor="@color/purple_500"
+        style="@style/TEXTO"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

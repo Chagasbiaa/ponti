@@ -2,31 +2,18 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <ImageView
-        android:id="@+id/imvw_voltarcns"
-        android:layout_width="32dp"
-        android:layout_height="29dp"
-        android:contentDescription="TODO"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.051"
-        app:srcCompat="@drawable/iconseta" />
+    android:layout_height="match_parent"
+    style="@style/TELA">
 
     <TextView
         android:id="@+id/txtvw_cns"
+        style="@style/TEXTO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Casos não solucionados"
-        android:textColor="@color/purple_500"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.698"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.044" />
@@ -84,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Arquivados"
-        android:textColor="@color/purple_500"
+        style="@style/TEXTO"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -169,7 +156,7 @@
         android:id="@+id/btnhome"
         android:layout_width="482dp"
         android:layout_height="74dp"
-        android:background="#F5F5F5"
+        style="@style/lista"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

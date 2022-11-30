@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".enviado">
+    tools:context=".enviado"
+    style="@style/TELA">
 
     <TextView
         android:id="@+id/txturgencia"
         android:layout_width="325dp"
         android:layout_height="129dp"
         android:text="@string/text_envi"
-        android:textColor="@color/purple_500"
+        style="@style/TEXTO"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,7 +85,7 @@
         android:id="@+id/btnhomel"
         android:layout_width="482dp"
         android:layout_height="74dp"
-        android:background="#F5F5F5"
+        style="@style/lista"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

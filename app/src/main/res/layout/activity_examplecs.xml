@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    style="@style/TELA">
 
     <ImageView
         android:id="@+id/imvw_imgmain"
@@ -35,7 +36,7 @@
         android:layout_width="374dp"
         android:layout_height="300dp"
         android:text="O piloto começa com uma mala encontrada no meio da Times Square, que aparentemente foi deixada lá de propósito, com um aviso “Chame o FBI”. O esquadrão anti-bombas chega, mas o conteúdo da mala é ainda mais surpreendente do que se esperava: uma mulher nua, com o corpo totalmente tatuado, sofrendo amnésia e que não tem a menor ideia de quem é e como foi parar lá. Logo em seguida descobrimos que a memória da mulher (chamada pelos demais personagens como Jane Doe, feminino de “João Ninguém”) foi apagada através de drogas e suas tatuagens são recentes. Numa delas se destaca o nome do agente Kurt Weller (Sullivan Stapleton, de 300: Rise of an Empire). Não demora muito para os personagens e a própria Jane descobrirem que ela sabe falar chinês, uma das tatuagens acaba levando-os para o endereço de um criminoso e…"
-        android:textColor="@color/purple_500"
+        style="@style/TEXTO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
@@ -48,7 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_ep1_telaexcs"
-        android:textColor="@color/purple_500"
+        style="@style/TEXTO"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,6 +65,7 @@
         android:background="@drawable/botaoredondo"
         android:text="@string/text_loccrime"
         android:textColor="@color/white"
+        style="@style/BOTAO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -136,7 +138,7 @@
         android:id="@+id/btnhome"
         android:layout_width="482dp"
         android:layout_height="74dp"
-        android:background="#F5F5F5"
+        style="@style/lista"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

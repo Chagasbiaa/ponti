@@ -22,16 +22,6 @@ public class casosnaosolucionados extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cns);
 
-        imvw_botaovoltar_cns = findViewById(R.id.imvw_voltarcns);
-
-        imvw_botaovoltar_cns.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), aventura.class);
-                startActivity(intent);
-
-            }
-        });
 
 
         imvw_botaocard_cns = findViewById(R.id.imvw_imgmain_cns);
