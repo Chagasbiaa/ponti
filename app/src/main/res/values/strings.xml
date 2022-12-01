@@ -50,4 +50,5 @@
     <string name="text_envi">Denuncia enviada com Sucesso</string>
     <string name="mode">Deseja privacidade?</string>
     <string name="princ">Principais casos</string>
+    <string name="hintfoto">Descreva o crime</string>
 </resources>
